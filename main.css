@@ -32,18 +32,24 @@ align-items: center;
     display: flex;
     justify-content: center;
     padding: 20px 5px; 
-}
-
-
-/* Animations first block */ 
-
-.box:nth-of-type(1){
     transition: 0.5s;
 }
 
-.box:nth-of-type(1):hover{
+
+.box:hover{
     background-color: #FFFFFF;
     color: #000000;
-    border: #000000 5px solid;
 }
+
+
+/* Animations second block */ 
+
+.box:nth-of-type(2){
+    transition: 1.5s;
+}
+.box:nth-of-type(2):hover{
+    transform: scale(1.3);
+}
+
+/* Animations block three */
 
