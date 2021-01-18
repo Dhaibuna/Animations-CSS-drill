@@ -50,12 +50,13 @@ main{
 /* Animation second block */ 
 
 
-.box:nth-of-type(2):hover{
+.box:nth-of-type(2):hover{   
     transform: scale(1.3);
 }
 
 /* Animation block three */
 
-.box:nth-of-type(3):hover{
-    transform: translateX(50%);
-}
+.box:nth-of-type(3):hover   
+{      
+    transform: translateX(50%);   
+}   
