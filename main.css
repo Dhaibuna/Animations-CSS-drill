@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+
+main{
+width:600px;
+height: 400px;
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+align-items: center;
+}
+
+.box{
+    font-weight: 900;
+    font-size: 20px;
+    width:220px;
+    background-color: black;
+    color: #FFFFFF;
+    border: #FFFFFF 5px solid;
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px; 
+}
+
+/* Animations first block */ 
+
+.box:nth-of-type(1):hover{
+    background-color: #FFFFFF;
+    color: #000000;
+    border: #000000 5px solid;
+}
